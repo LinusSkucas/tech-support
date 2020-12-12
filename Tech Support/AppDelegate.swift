@@ -10,9 +10,13 @@ import Cocoa
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
+    @IBOutlet weak var updateAppMenu: NSMenuItem!
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        if Bundle.main.bundleIdentifier == "sh.linus.Tech-Support.mas" {
+            self.updateAppMenu.isHidden = true
+        }
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

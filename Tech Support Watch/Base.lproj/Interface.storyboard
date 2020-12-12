@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17506" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17500"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Tech_Support_Watch" customModuleProvider="target">
+                    <items>
+                        <imageView alignment="left" image="halp" id="On0-48-vS8"/>
+                        <separator alignment="left" id="77a-fd-J9o"/>
+                        <group width="1" height="0.0" alignment="left" id="m4g-7x-fF5">
+                            <items>
+                                <label alignment="left" text="Credits:" textAlignment="center" id="LMq-xu-thT">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="0.0" alignment="left" id="CK7-eb-m0R">
+                            <items>
+                                <label alignment="left" text="Linus Skucas" textAlignment="left" id="WDY-qt-BhB">
+                                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="0.0" alignment="left" id="cn9-7n-guS">
+                            <items>
+                                <label alignment="left" text="Comic: xkcd.com/627" textAlignment="left" numberOfLines="0" id="AJ0-LH-ka6">
+                                    <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="0.0" alignment="left" id="HCL-a1-1oG">
+                            <items>
+                                <label alignment="left" text="Icon: Charlie Welsh" textAlignment="left" id="jTQ-Fx-7lv">
+                                    <color key="textColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-51" y="36"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="halp" width="549" height="617"/>
+    </resources>
+</document>

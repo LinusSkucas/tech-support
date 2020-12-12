@@ -122,7 +122,13 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Tech_Support" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Tech_Support" customModuleProvider="target">
+                    <connections>
+                        <outlet property="appMenu" destination="1Xt-HY-uBw" id="1qB-Ac-bhh"/>
+                        <outlet property="updateAppMenu" destination="Kd0-9a-G8h" id="Y75-x5-zHP"/>
+                        <outlet property="updaterObject" destination="dXi-D5-H9O" id="Smi-X5-Elz"/>
+                    </connections>
+                </customObject>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <customObject id="dXi-D5-H9O" customClass="SUUpdater"/>
